@@ -52,6 +52,7 @@ public class ProjetoClinica {
         Consulta consulta = new Consulta(medico, paciente, data);
         medico.adicionarConsulta(consulta);
         paciente.getProntuario().adicionarConsulta(consulta);
+        medico.getAgenda().reservarHorario(data);
         System.out.println("Consulta agendada com sucesso!");
     }
 
