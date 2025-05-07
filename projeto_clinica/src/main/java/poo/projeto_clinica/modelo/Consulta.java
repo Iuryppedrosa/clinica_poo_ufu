@@ -41,6 +41,18 @@ public class Consulta {
     public Paciente getPaciente() {
         return paciente;
     }
+    public int getBatimentos() {
+        return batimentos;
+    }
+    
+    public String getPressao() {
+        return pressao;
+    }
+    
+    public double getTemperatura() {
+        return temperatura;
+    }
+    
 
     public LocalDateTime getData() { return data; }
     public String getDiagnostico() { return diagnostico; }

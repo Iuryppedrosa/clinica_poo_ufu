@@ -24,7 +24,7 @@ public class Medico extends Usuario{
         this.consultas = new ArrayList<>();
         this.agenda = new Agenda(this);
     }
-
+   
     public void adicionarConvenio(String convenio) {
         convenios.add(convenio);
     }
